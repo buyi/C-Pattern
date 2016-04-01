@@ -1,16 +1,13 @@
 #include "stdio.h"
-#include "MazeFactory.cpp"
-// #include "Maze.cpp"
-// #include "EnchantedMaze.cpp"
-class EnchantedMazeFactory : public MazeFactory {
-	public:
-		EnchantedMazeFactory () {
-			printf ("EnchantedMazeFactory");
-		}
+#include "EnchantedMaze.h"
+#include "EnchantedMazeFactory.h"
 
-		virtual Maze* MakeMaze () const {
-			printf ("EnchantedMazeFactory MakeMaze") ;
-			return new Maze ;
-		}
+EnchantedMazeFactory::EnchantedMazeFactory () {
+	printf ("EnchantedMazeFactory");
+}
 
-};
+
+Maze* EnchantedMazeFactory::MakeMaze () const {
+	printf ("EnchantedMazeFactory MakeMaze") ;
+	return new EnchantedMaze ;
+}

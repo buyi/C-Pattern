@@ -1,7 +1,5 @@
-#include "stdio.h"
-class Maze {
-	public:
-		Maze () {
-		printf ("Maze");
-	}
-};
+// #include "stdio.h"
+
+// Maze::Maze () {
+// 		printf ("Maze");
+// }

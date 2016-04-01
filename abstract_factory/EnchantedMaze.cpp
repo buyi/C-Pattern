@@ -1,8 +1,5 @@
 #include "stdio.h"
-#include "Maze.cpp"
-class EnchantedMaze : public Maze {
-	public:
-		EnchantedMaze () {
-		printf ("EnchantedMaze");
-	}
-};
+#include "EnchantedMaze.h"
+EnchantedMaze::EnchantedMaze () {
+	printf ("EnchantedMaze");
+}

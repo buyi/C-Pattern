@@ -1,11 +1,9 @@
 // #include "Maze.cpp"
 // #include "MazeFactory.cpp"
-#include "EnchantedMazeFactory.cpp"
-class  MazeGame {
 
-public:
-	Maze* CreateMaze (MazeFactory& factory);
-};
+#include "MazeGame.h"
+#include "EnchantedMazeFactory.h"
+
 
 Maze* MazeGame::CreateMaze (MazeFactory& factory) {
 	Maze* maze = factory.MakeMaze();
