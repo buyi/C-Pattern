@@ -2,7 +2,7 @@
 * @Author: buyi
 * @Date:   2016-04-11 23:19:30
 * @Last Modified by:   buyi
-* @Last Modified time: 2016-04-11 23:38:00
+* @Last Modified time: 2016-04-12 15:51:35
 */
 
 #include <iostream>
@@ -12,7 +12,7 @@
 using namespace std;
 
 TextView::TextView () {
-	cout << "TextView";
+	cout << "##TextView##";
 }
 
 void TextView::GetOrigin (Coord& x, Coord& y) const {
