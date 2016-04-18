@@ -6,9 +6,10 @@ using namespace std;
 class CompositeEquipment : public Equipment
 {
 public:
-	CompositeEquipment(const char* value);
-	void print ();
-	// void Add (Equipment*);
+	CompositeEquipment( char* value);
+	 void print ();
+	~CompositeEquipment();
+	void Add (Equipment*);
 	// ~CompositeEquipment();
 
 // private:

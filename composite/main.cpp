@@ -2,7 +2,7 @@
 * @Author: buyi
 * @Date:   2016-04-13 23:37:46
 * @Last Modified by:   buyi
-* @Last Modified time: 2016-04-13 23:52:45
+* @Last Modified time: 2016-04-18 21:59:49
 */
 
 #include <iostream>
@@ -17,7 +17,7 @@ int main(){
 
 
     CompositeEquipment* equipment = new CompositeEquipment("A composite");
-    // equipment->Add (new FloppyDisk ("A left"));
+    equipment->Add (new FloppyDisk ("A left"));
     equipment->print();
      return 0;
 }

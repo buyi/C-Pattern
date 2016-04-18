@@ -3,7 +3,8 @@
 #include "Equipment.h"
 class FloppyDisk : public Equipment {
 	public:
-		FloppyDisk (const char* value);
+		FloppyDisk ( char* value);
+		~FloppyDisk();
 		void print ();
 };
 #endif
