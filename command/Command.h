@@ -1,3 +1,5 @@
+#ifndef _Command_H
+#define _Command_H
 class Command
 {
 public:
@@ -6,3 +8,4 @@ public:
 	virtual void Execute() = 0;
 	
 };
+#endif
