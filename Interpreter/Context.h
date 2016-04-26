@@ -1,8 +1,8 @@
 #ifndef Context_H
 #define Context_H
 // #include "BooleanExp.h"
-#include "VariableExp.h"
-// class VariableExp;
+// #include "VariableExp.h"
+class VariableExp;
 #include <map>
 using namespace std;
 class Context
